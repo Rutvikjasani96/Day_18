@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class Question_2 {
-//    find the first non repeating element
+//    find the first non-repeating element
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 1, 2, 5};
         HashMap<Integer, Integer> hm = Question_1.getFrequency(array);
